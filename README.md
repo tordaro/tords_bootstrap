@@ -4,14 +4,14 @@ Setup new macs. <br> Spilled coffee all over your most valuable item? Lost your 
 ## How to use RC
 To avoid making your entire home area into a repo, clone this repo into your home area, then set up a symbolic link named `.zshrc` on the home area root:
 
-`ln -s ~/ln tords_bootstrap/.zshrc_personal ~/.zshrc`
+`ln -s ~/ln tords_bootstrap/.<name-of-zshrc> ~/.zshrc`
 
-This will set up a symbolic link to the `.zshrc_personal` file.
+This will set up a symbolic link to the `.<name-of-zshrc>` file.
 
 ## How to use Brewfile
 To install a Brewfile here, use:
 
-`brew bundle install`
+`brew bundle install --file=<name-of-brewfile>`
 
 To track or update a brewfile, use:
 
