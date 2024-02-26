@@ -1,0 +1,174 @@
+tap "homebrew/bundle"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 4.2+
+brew "bash-completion@2"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Modern replacement for 'ls'
+brew "exa"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# Distributed revision control system
+brew "git"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Post-modern modal text editor
+brew "helix"
+# Improved top (interactive process viewer)
+brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
+# Network authentication protocol
+brew "krb5"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
+# Unified display of technical and tag data for audio/video
+brew "media-info"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# OpenShift command-line interface tools
+brew "openshift-cli"
+# Highly capable, feature-rich programming language
+brew "perl"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Object-relational database system
+brew "postgresql@14"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Tail multiple Kubernetes pods & their containers
+brew "stern"
+# Programmatically correct mistyped console commands
+brew "thefuck"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# View, print, and comment on PDF documents
+cask "adobe-acrobat-reader"
+# UI wireframing tool
+cask "balsamiq-wireframes"
+# GUI app for Homebrew
+cask "cakebrew"
+# App to build and share containerised applications and microservices
+cask "docker"
+# Reimagine your terminal
+cask "fig"
+# Clipboard manager for developers
+cask "flycut"
+cask "font-awesome-terminal-fonts"
+# Developer targeted fonts with a high number of glyphs
+cask "font-hack-nerd-font"
+cask "font-space-mono"
+# Web browser
+cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Open-source, self-hosted Slack-alternative
+cask "mattermost"
+# Web browser
+cask "microsoft-edge"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin11"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin17"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin8"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
+vscode "austenc.tailwind-docs"
+vscode "bierner.markdown-mermaid"
+vscode "bradlc.vscode-tailwindcss"
+vscode "charliermarsh.ruff"
+vscode "christian-kohler.path-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "digitalbrainstem.javascript-ejs-support"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.auto-close-tag"
+vscode "formulahendry.code-runner"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.copilot-labs"
+vscode "github.vscode-pull-request-github"
+vscode "hbenl.vscode-test-explorer"
+vscode "hex-ci.stylelint-plus"
+vscode "joaompinto.vscode-graphviz"
+vscode "littlefoxteam.vscode-python-test-adapter"
+vscode "mariusalchimavicius.json-to-ts"
+vscode "mechatroner.rainbow-csv"
+vscode "mikerhyssmith.ts-barrelr"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.black-formatter"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.mypy-type-checker"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.test-adapter-converter"
+vscode "naumovs.color-highlight"
+vscode "tamasfe.even-better-toml"
+vscode "vscodevim.vim"
+vscode "wayou.file-icons-mac"
+vscode "withfig.fig"
+vscode "wix.vscode-import-cost"
+vscode "yzhang.markdown-all-in-one"
