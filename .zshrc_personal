@@ -109,3 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+alias prune_origin="git remote prune origin"
+alias prune_merged="git branch --merged | xargs git branch -d"
+
