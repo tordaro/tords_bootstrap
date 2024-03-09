@@ -1,7 +1,5 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 # Post-modern modal text editor
 brew "helix"
 # Network authentication protocol
