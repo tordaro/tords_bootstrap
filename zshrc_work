@@ -129,3 +129,4 @@ eval $(thefuck --alias)
 alias prune_origin="git remote prune origin"
 alias prune_merged="git branch --merged | xargs git branch -d"
 alias ls="ls -la"
+alias gg="lazygit"
