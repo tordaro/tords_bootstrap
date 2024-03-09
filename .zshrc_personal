@@ -113,3 +113,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 alias prune_origin="git remote prune origin"
 alias prune_merged="git branch --merged | xargs git branch -d"
 alias lg="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>;%Creset' --abbrev-commit --date=relative"
+alias ls="ls -la"
