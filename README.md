@@ -16,3 +16,6 @@ To install a Brewfile here, use:
 To track or update a brewfile, use:
 
 `brew bundle dump --force --describe --file="<name-of-brewfile>"`
+
+## Chad setup
+The `custom` folder is part of the [NVChad](https://github.com/NvChad/NvChad) setup with my personal configs.
