@@ -94,8 +94,6 @@ cask "balsamiq-wireframes"
 cask "cakebrew"
 # App to build and share containerised applications and microservices
 cask "docker"
-# Reimagine your terminal
-cask "fig"
 # Clipboard manager for developers
 cask "flycut"
 cask "font-awesome-terminal-fonts"
