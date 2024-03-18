@@ -7,8 +7,11 @@ local autocmd = vim.api.nvim_create_autocmd
 -- })
 
 autocmd("BufWritePre", {
-  pattern = "*",
-  callback = function(args)
-    require("conform").format { bufnr = args.buf }
-  end,
+	pattern = "*",
+	callback = function(args)
+		require("conform").format({ bufnr = args.buf })
+	end,
 })
+
+vim.opt.number = true
+vim.opt.relativenumber = true
