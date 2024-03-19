@@ -78,6 +78,7 @@ plugins=(
   macos
   virtualenv
   thefuck
+  zsh-autosuggestions # See https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 )
 
 source $ZSH/oh-my-zsh.sh
