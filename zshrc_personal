@@ -73,8 +73,8 @@ ZSH_THEME="amuse"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  # python
-  # poetry
+  python
+  poetry
   macos
   virtualenv
   thefuck
@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -116,3 +116,6 @@ alias prune_merged="git branch --merged | xargs git branch -d"
 alias lg="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>;%Creset' --abbrev-commit --date=relative"
 alias ls="ls -la"
 alias gg="lazygit"
+
+# Created by `pipx` on 2024-03-27 21:57:43
+export PATH="$PATH:/Users/tordaronsen/.local/bin"
