@@ -19,3 +19,5 @@ To track or update a brewfile, use:
 
 ## Chad setup
 The `custom` folder is part of the [NVChad](https://github.com/NvChad/NvChad) setup with my personal configs.
+
+Remember to `brew install --cask font-hack-nerd-font` and set that font in the terminal's Settings -> Profile -> Text -> Font
