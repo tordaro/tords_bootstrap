@@ -131,3 +131,8 @@ alias prune_origin="git remote prune origin"
 alias prune_merged="git branch --merged | xargs git branch -d"
 alias ls="ls -la"
 alias gg="lazygit"
+
+# Created by `pipx` on 2024-11-01 12:23:46
+export PATH="$PATH:/Users/tord.aronsen/.local/bin"
+source ~/.zshrc.d/*.zsh
+
