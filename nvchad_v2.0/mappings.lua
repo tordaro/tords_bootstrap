@@ -17,6 +17,9 @@ M.general = {
   v = {
     [">"] = { ">gv", "indent"},
   },
+  i = {
+      ["jj"] = { "<Esc>", "Exit insert mode" },
+  },
 }
 
 -- more keybinds!
